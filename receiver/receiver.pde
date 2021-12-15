@@ -1,34 +1,15 @@
 
 import java.util.Iterator;
-
 import oscP5.*;
 import netP5.*;
 
-
 OscP5 osc;
-
 PFont font;
-float cps = 0;
-float showCycles = 2;
-int orbitn = 7;
-float lastCycle = 0;
-float lastTime = 0;
-int orbitHeight = 16;
-int h = orbitHeight - 4;
-
 Pad[] pads = new Pad[12];
-
-int bdCount = 0;
-int cpCount = 0;
-int tomCount = 0;
-int ohCount = 0;
-int chCount = 0;
-
-String voice = "asdf";
 
 void setup() {
   frameRate(30);
-  surface.setTitle("lines");
+  surface.setTitle("night");
   smooth();
   size(1024, 680);
   textSize(40);
